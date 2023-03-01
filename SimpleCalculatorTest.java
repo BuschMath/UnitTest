@@ -8,4 +8,10 @@ public class SimpleCalculatorTest {
         SimpleCalculator calculator = new SimpleCalculator();
         assertEquals(4, calculator.add(2, 2));
     }
+
+    @Test
+    void addThreeAndFive(){
+        SimpleCalculator calculator = new SimpleCalculator();
+        assertEquals(8, calculator.add(3, 5));
+    }
 }
